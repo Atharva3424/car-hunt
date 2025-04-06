@@ -2,6 +2,8 @@ import { Link, Outlet } from "react-router-dom";
 import { useState } from "react";
 
 const MainNavBar = () => {
+
+    
     const [isDropdownOpen, setIsDropdownOpen] = useState();
 
     const handleDropdownToggle = () => {
@@ -28,7 +30,7 @@ const MainNavBar = () => {
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="review"> Reviews&News</Link>
+                            <Link className="nav-link" to={`review`}> Reviews&News</Link>
                         </li>
                     </ul>
                     <ul className="navbar-nav">

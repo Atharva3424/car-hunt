@@ -15,9 +15,9 @@ const MainRouter = ()=>{
                 <Route path="/" element={<MainNavBar/>}>
                     <Route path="home" element={<Home/>}/>
                     <Route path="new" element={<NewCars/>}/>
-                    <Route path="Review" element={<Reviews/>}>
+                    <Route path="review" element={<Reviews/>}/>
                     <Route path="detail/:rv_id" element={<ReviewDetails/>}/>
-                    </Route>
+                    {/* </Route> */}
                     <Route path="login" element={<Login/>} />
                     <Route path="*" element={<PageNotFound/>}/>
                 </Route>

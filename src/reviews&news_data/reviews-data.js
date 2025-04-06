@@ -7,7 +7,7 @@ const reviews =[
         seats:'Ventilated Seats',
         holder:'Front and Rear Cup Holders',
         engine:'2393cc',
-        image:'assets/reviewspic/InnovaCrysta.jpg',
+        image:'https://img.indianautosblog.com/2020/11/24/2021-toyota-innova-crysta-front-left-6fcb.jpg',
     
     },
     {
