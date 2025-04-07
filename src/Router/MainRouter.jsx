@@ -1,7 +1,7 @@
 import {BrowserRouter,Routes,Route } from "react-router-dom"
 import MainNavBar from "./MainNavBar";
 import NewCars from "../components/new cars/NewCars";
-import Reviews from "../components/review&news/Reviews";
+import Reviews from "../components/review&news/ReviewPage";
 import Home from "../components/Home";
 import Login from "../components/login/Login";
 import PageNotFound from "../components/PageNotFound";

@@ -5,8 +5,8 @@ const ReviewDetails =()=>{
     // alert("hello")
     const navigate = useNavigate();
     const {rv_id} = useParams();
-    console.log("rv_id=",rv_id);
-    console.log("mainpage trigggered",reviews);
+    // console.log("rv_id=",rv_id);
+    // console.log("mainpage trigggered",reviews);
 
     const reviewDec =reviews.find( rv=>rv.id=== rv_id )
     console.log("reviewdec",reviewDec);
